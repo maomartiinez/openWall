@@ -1,1 +1,2 @@
 observador: Profesor
+Administrador del proyecto: César Augusto Zabala
