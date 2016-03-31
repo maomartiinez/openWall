@@ -1,2 +1,3 @@
 observador: Profesor
 Administrador del proyecto: César Augusto Zabala
+Encargado BO: Daniel Moncada Tabares
