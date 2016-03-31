@@ -2,3 +2,4 @@ observador: Profesor
 Administrador del proyecto: César Augusto Zabala
 Encargado BO: Daniel Moncada Tabares
 Encargado GUI: Jhon Sebastian Castañeda
+Encargado DAO: Francisco Javier Gomez Chingaté
