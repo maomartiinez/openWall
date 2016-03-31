@@ -3,3 +3,4 @@ Administrador del proyecto: César Augusto Zabala
 Encargado BO: Daniel Moncada Tabares
 Encargado GUI: Jhon Sebastian Castañeda
 Encargado DAO: Francisco Javier Gomez Chingaté.
+Encargado comunicación JS 1: Cristian Camilo Londoño
