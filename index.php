@@ -14,6 +14,8 @@
             </div>
         </header>
         <section class="contenido wrapper">
+            <textarea id="comentario" rows="5" cols="25"></textarea>
+            <button id="btnenviar">Enviar Comentario</button>
         </section>
         <footer>
             <div class="copyrigth wrapper">
