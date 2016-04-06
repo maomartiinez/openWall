@@ -28,7 +28,7 @@ Class ConexionBD{
   }
 
   /**
-   * Realiza la consulta de todas las publicaciones
+   * Realiza la consulta de todas las publicaciones.
    * @return [type] [description]
    */
   public function getAllPublications()
@@ -82,6 +82,7 @@ Class ConexionBD{
       $count = $statement->fetch();
       $count= $count + 1;
       $query_update = "UPDATE publication SET count ="+$count;
+      return true;
         
     }catch( PDOException $Exception ) {
       $error = $Exception->getMessage( ).', '.$Exception->getCode( );
