@@ -33,7 +33,7 @@ Class ConexionBD{
    */
   public function getAllPublications()
   {
-    $query_select = "SELECT * FROM publication"; 
+    $query_select = "SELECT * FROM publication ORDER BY idpublication DESC"; 
     $statement = $this->pdoApp->prepare($query_select);
     $statement->execute();
     $rs_publications = array();
@@ -74,5 +74,6 @@ Class ConexionBD{
 
     return true;
   }
+  
 }
 ?>
