@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/estilos.css" type="text/css" />
+        <link href="assets/css/styles.css" rel="stylesheet" type="text/css"/>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="js/header.js" ></script>
+        <script src="assets/js/header.js" type="text/javascript"></script>
 	<title>Muro de las lamentaciones</title>
 </head>
 <body>
