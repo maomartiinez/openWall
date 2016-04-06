@@ -53,7 +53,7 @@ Class ConexionBD{
   /**
    * Inserta una nueva publicación
    * @param  Publication $publication: Objeto de tipo Publication
-   * @return boolean: true o false;
+   * @return boolean: true o false
    */
   public function insertPublication($publication){
     $query_insert = "INSERT INTO publication(idpublication, text_content, count, date) VALUES (?,?,?,?)"; 
