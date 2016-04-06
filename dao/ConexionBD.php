@@ -74,6 +74,21 @@ Class ConexionBD{
 
     return true;
   }
+  public function UpdateCount($id){
+       $query_select = "SELECT count FROM publication WHERE idpublication ="+$id; 
+       try{
+      $statement = $this->pdoApp->prepare($query_select);
+      $statement->execute();
+      $count = $statement->fetch();
+      $count= $count + 1;
+      $query_update = "UPDATE publication SET count ="+$count;
+        
+    }catch( PDOException $Exception ) {
+      $error = $Exception->getMessage( ).', '.$Exception->getCode( );
+      echo $error;
+      return false;
+    }
+  }
   
 }
 ?>
