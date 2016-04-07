@@ -5,6 +5,7 @@
         <link href="assets/css/styles.css" rel="stylesheet" type="text/css"/>
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script src="assets/js/header.js" type="text/javascript"></script>
+        <script src="assets/js/functions.js"> </script>
         <title>Muro de las lamentaciones</title>
     </head>
     <body>
@@ -22,18 +23,6 @@
                 <br>
                 <br>
                 <div id="muro">
-                    <div>Este es un comentario</div>
-                    <div>Este es un comentario</div>
-                    <div>Este es un comentario</div>
-                    <div>Este es un comentario</div>
-                    <div>Este es un comentario</div>
-                    <div>Este es un comentario</div>
-                    <div>Este es un comentario</div>
-                    <div>Este es un comentario</div>
-                    <div>Este es un comentario</div>
-                    <div>Este es un comentario</div>
-                    <div>Este es un comentario</div>
-                    <div>Este es un comentario</div>
                     <div>Este es un comentario</div>
                     <div>Este es un comentario</div>
                     <div>Last comment</div>
