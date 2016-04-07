@@ -11,4 +11,3 @@ foreach ($publicacionesGet as $it) {
     }
 }
 echo json_encode($publicaciones);
-
