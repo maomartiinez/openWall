@@ -14,75 +14,32 @@
             </div>
         </header>
         <section class="contenido wrapper">
-            <textarea id="comentario" rows="5" cols="25"></textarea>
-            <button id="btnenviar">Enviar Comentario</button>
-        </section>
-
-        <section class="muro wrapper">
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div><div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                Este es un comentario de prueba
-            </div>
-            <div>
-                ultimoEste es un comentario de prueba
+            <div class="cont">
+                <textarea id="comentario" rows="5" cols="25"></textarea>
+                <br>
+                <br>
+                <button id="btnenviar">Enviar Comentario</button>
+                <br>
+                <br>
+                <div id="muro">
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Este es un comentario</div>
+                    <div>Last comment</div>
+                </div>
             </div>
         </section>
-
         <footer>
             <div class="copyrigth wrapper">
                 <p align="center">Copyright &copy; 2015 |Muro de las lamentaciones</p>

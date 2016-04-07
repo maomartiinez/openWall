@@ -1,7 +1,8 @@
 *{
+    margin:0px;
     padding:0px;
-    margin: 0px;
 }
+
 body{
     background:#F5F5F5;
 }
@@ -29,7 +30,6 @@ header .logo{
     line-height:200px;
     float:left;
 }
-
 .header2{
     position: fixed;
     height: 100px;
@@ -39,7 +39,10 @@ header .logo{
     line-height: 100px;
     font-size: 30px;
 }
-
+.cont div{
+    margin-bottom: 1em;
+    font-size: 20px;
+}
 footer{
     height: 10px;
     padding: 1em 1em;
@@ -59,24 +62,22 @@ footer .copyright {
     width: 96%;
     margin-bottom: 20px;
 }
-
 .copyright p{
     text-align: center;
 }
 
-/*@media screen and (max-width:950px ){
-    header .logo,
-    header nav{
+@media screen and (max-width:950px ){
+    header .logo{
         width: 100%;
         text-align: center;
         line-height: 100px;
     }
+
     .header2 {
         height: auto;
     }
 
-    .header2 .logo,
-    .header2 nav{
+    .header2 .logo{
         line-height: 50px;
     }
-}*/
+}
