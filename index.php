@@ -17,6 +17,72 @@
             <textarea id="comentario" rows="5" cols="25"></textarea>
             <button id="btnenviar">Enviar Comentario</button>
         </section>
+
+        <section class="muro wrapper">
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div><div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                Este es un comentario de prueba
+            </div>
+            <div>
+                ultimoEste es un comentario de prueba
+            </div>
+        </section>
+
         <footer>
             <div class="copyrigth wrapper">
                 <p align="center">Copyright &copy; 2015 |Muro de las lamentaciones</p>

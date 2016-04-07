@@ -1,74 +1,82 @@
 *{
-	padding:0px;
-	margin: 0px;
+    padding:0px;
+    margin: 0px;
 }
 body{
-	background:#F5F5F5;
+    background:#F5F5F5;
 }
 
 header{
-	width:100%;
-	overflow:hidden;
-	background:#252932;
-	margin-bottom:20px;
+    width:100%;
+    overflow:hidden;
+    background:#252932;
+    margin-bottom:20px;
 }
 .wrapper{
-	width:90%;
-	max-width:1000px;
-	margin:auto;
-	overflow:hidden;
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    overflow:hidden;
 }
 .contenido{
-	padding-top:50px;
-	padding-bottom:50px;
+    padding-top:50px;
+    padding-bottom:50px;
 }
 
 header .logo{
-	color:#f2f2f2;
-	font-size:50px;
-	line-height:200px;
-	float:left;
+    color:#f2f2f2;
+    font-size:50px;
+    line-height:200px;
+    float:left;
 }
 
 .header2{
-	position: fixed;
-	height: 100px;
+    position: fixed;
+    height: 100px;
 }
 
 .header2 .logo{
-	line-height: 100px;
-	font-size: 30px;
+    line-height: 100px;
+    font-size: 30px;
 }
 
 footer{
-	height: 10px;
-  	padding: 1em 1em;
-  	vertical-align: bottom;
-  	display: block;
-  	width: 100%;
-  	position: fixed;
-  	clear: both;
-  	background-color: #252932;
-  	color: #f2f2f2;
-  	margin-bottom: 0;
-  	bottom: 0;
-  	overflow:hidden;
+    height: 10px;
+    padding: 1em 1em;
+    vertical-align: bottom;
+    display: block;
+    width: 100%;
+    position: fixed;
+    clear: both;
+    background-color: #252932;
+    color: #f2f2f2;
+    margin-bottom: 0;
+    bottom: 0;
+    overflow:hidden;
 }
 
 footer .copyright {
-  	width: 96%;
-  	margin-bottom: 20px;
+    width: 96%;
+    margin-bottom: 20px;
 }
 
 .copyright p{
-	text-align: center;
+    text-align: center;
 }
 
-@media screen and (max-width:950px ){
-	header .logo,
-	header nav{
-		width: 100%;
-		text-align: center;
-		line-height: 100px;
-	}
-}
+/*@media screen and (max-width:950px ){
+    header .logo,
+    header nav{
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+    }
+    .header2 {
+        height: auto;
+    }
+
+    .header2 .logo,
+    .header2 nav{
+        line-height: 50px;
+    }
+}*/
