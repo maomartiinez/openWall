@@ -1,7 +1,14 @@
 <?php
 
 include '../dao/ConexionBD.php';
+include '../bo/ClsPublication.php';
 $dao = new ConexionBD();
-$publicaciones=$dao->getAllPublications();
+$publicacionesGet=$dao->getAllPublications();
+$publicaciones=array();
+foreach ($publicacionesGet as $it) {
+    if($it->getCount()<3){
+        $publicaciones[]=$it;
+    }
+}
 echo json_encode($publicaciones);
 
