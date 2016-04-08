@@ -17,9 +17,9 @@
         </header>
         <section class="contenido wrapper">
             
-              <table>
+            <div>
                   <td><img src="http://www.logovia.com.br/blog/wp-content/uploads/2013/01/CocaCola_2.jpg" ></td>
-        </table>
+        </div>
             <div class="cont">
                 <textarea id="comentario" rows="5" cols="25"></textarea>
                 <h1 id="contador"> Cualquier cosa</h1>
