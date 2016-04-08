@@ -74,14 +74,13 @@ Class ConexionBD{
 
     return true;
   }
-  public function UpdateCount($id){
-       $query_select = "SELECT count FROM publication WHERE idpublication ="+$id; 
+  public function UpdateCount(ClsPublication $obj){
+       $query_update = "UPDATE publication SET text_content='".$obj->getText_content()."',count =".$obj->getCount().", date='".$obj->getCount()."';";
        try{
-      $statement = $this->pdoApp->prepare($query_select);
+      $statement = $this->pdoApp->prepare($query_update);
       $statement->execute();
-      $count = $statement->fetch();
-      $count= $count + 1;
-      $query_update = "UPDATE publication SET count ="+$count;
+      
+     
       return true;
         
     }catch( PDOException $Exception ) {
@@ -89,6 +88,22 @@ Class ConexionBD{
       echo $error;
       return false;
     }
+  }
+  public function BuscarPublicacion($id){
+      $query_select = "SELECT * FROM publication WHERE idpublication ="+$id+";"; 
+       try{
+      $statement = $this->pdoApp->prepare($query_select);
+      $statement->execute();
+      $publication = $statement->fetch();     
+      
+      return $publication;
+        
+    }catch( PDOException $Exception ) {
+      $error = $Exception->getMessage( ).', '.$Exception->getCode( );
+      echo $error;
+      return false;
+    }
+      
   }
   
 }
