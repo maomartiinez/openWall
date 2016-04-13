@@ -6,7 +6,7 @@ include '../bo/ClsPublication.php';
 if (isset($_REQUEST['id'])) {
     $dao = new ConexionBD();
     $pub = $dao->buscarPublication();
-    $cont = $pub->getCount();
+    $cont = $pub->cont;
     $pub->setCount($cont+1);
     $dao->UpdateCount($pub);
 }

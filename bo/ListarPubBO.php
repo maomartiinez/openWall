@@ -6,7 +6,7 @@ $dao = new ConexionBD();
 $publicacionesGet=$dao->getAllPublications();
 $publicaciones=array();
 foreach ($publicacionesGet as $it) {
-    if($it->getCount()<3){
+    if($it->count3){
         $publicaciones[]=$it;
     }
 }
