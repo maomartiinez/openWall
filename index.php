@@ -30,7 +30,7 @@
             </div>
         </section>
         <footer>
-            <div class="copyrigth wrapper">
+            <div class="copyright wrapper">
                 <p align="center">Copyright &copy; 2015 |Muro de las lamentaciones</p>
             </div>
         </footer>

@@ -79,8 +79,6 @@ Class ConexionBD{
        try{
       $statement = $this->pdoApp->prepare($query_update);
       $statement->execute();
-      
-     
       return true;
         
     }catch( PDOException $Exception ) {
@@ -94,8 +92,7 @@ Class ConexionBD{
        try{
       $statement = $this->pdoApp->prepare($query_select);
       $statement->execute();
-      $publication = $statement->fetch();     
-      
+      $publication = $statement->fetch();
       return $publication;
         
     }catch( PDOException $Exception ) {
