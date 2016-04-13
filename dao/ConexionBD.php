@@ -5,7 +5,7 @@ Class ConexionBD{
 /** Constantes de conexión */
   const DB_HOST = 'localhost'; //Servidor
   const DB_USER = 'root'; //Usuario de la BD
-  const DB_PASS = 'root'; // Password de la BD
+  const DB_PASS = ''; // Password de la BD
   const DB_NAME = 'openwall'; //Nombre de la BD
 
   function __construct()

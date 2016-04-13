@@ -1,11 +1,12 @@
-$(document).ready(function(){
-
+$(document).ready(function () {
+    var numero = 150;
+    $("#contador").text(numero);
+    $("#comentario").keyup(function () {
+        numero = 150 - $("#comentario").val().length;
+        $("#contador").text(numero);
+        $("#contador").css("color", "black");
+        if (numero < 0) {
+            $("#contador").css("color", "red");
+        } 
+    });
 });
-function validarCampo (elemento){
-    var text = $(elemento).text();
-        if (text !== "" && text.length<=140){
-            return true;
-        }else{
-            return false;
-        }
-}

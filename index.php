@@ -3,9 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <link href="assets/css/styles.css" rel="stylesheet" type="text/css"/>
-        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="assets/js/jquery-2.1.1.min.js"></script>
         <script src="assets/js/header.js" type="text/javascript"></script>
-        <script src="assets/js/functions.js"> </script>
+        <script src="assets/js/functions.js"></script>
+        <script src="assets/js/validations.js"></script>
         <title>Muro de las lamentaciones</title>
     </head>
     <body>
@@ -17,15 +18,13 @@
         <section class="contenido wrapper">
             <div class="cont">
                 <textarea id="comentario" rows="5" cols="25"></textarea>
+                <h1 id="contador"> Cualquier cosa</h1>
                 <br>
                 <br>
                 <button id="btnenviar">Enviar Comentario</button>
                 <br>
                 <br>
                 <div id="muro">
-                    <div>Este es un comentario</div>
-                    <div>Este es un comentario</div>
-                    <div>Last comment</div>
                 </div>
             </div>
         </section>
